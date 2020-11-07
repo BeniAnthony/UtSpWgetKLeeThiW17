@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 6%;
+    font-size: 3vw;
+    padding: 2% 2% 1%;
+}
+
+.sub-title{
+    padding: 5% 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-title h1{
+    font-size: 6vw;
+}
+
+.sub-title h2{
+    font-size: 3vw;
+    border-bottom: 2px solid black;
+
+}
+
+.perkenalan{
+    height: 100%;
+}
+ .perkenalan img{
+    width: 25vw;
+    background-color : gray;
+ }
+ .perkenalan-isi{
+    float: left;
+    font-size: 1.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 1%;
+ }
+
+ .perkenalan-p{
+    font-size: 1.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 35%;
+ }
+
+ .perkenalan-riwayat{
+    float: left;
+    font-size: 1.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left : 8%;
+ }
+ 
+.perkenalan-riwayat p{
+  text-decoration: underline;
+}
+
+.sekolah{
+  display : none;
+}
+
+ .loading img{
+    float: right;
+    width : 10vw;
+    height : 10vw;
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .loading-p{
+    text-align: right;
+    padding-right: 1%;
+    padding-top: 25%;
+    font-size: 1.5vw;
+  }
+
+.calculator_tambah{
+    font-size: 1.5vw;
+    padding-top: 5% ;
+    display: none;
+}

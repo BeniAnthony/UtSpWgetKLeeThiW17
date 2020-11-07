@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src ="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class class = "header-title">
+            BIODATA DIRI
+        </div>
+    </header>
+
+    <main class = "sub-title"> 
+        <div>
+            <h1>PERKENALAN DIRI</h1>
+            <h2>Perkenalan menggunakan HTML, CSS, dan JavaScript</h2>
+        </div>
+        <div class = "perkenalan">
+            <div class = "perkenalan-isi">
+                <div class = "perkenalan img">
+                    <img src = "Foto diri.jpg">
+                </div>
+                <p class ="perkenalan-p">Foto Diri</p>
+            </div>
+            <div>
+                <pre class = "perkenalan-isi">
+                    Nama        : Beni Anthony
+                    Email        : anthonybenben17@gmail.com/ benianthony@mhs.mdp.ac.id
+                    Hobby       : Bermain game, mendengar musik, membaca manga
+                    Keahlian  : Membuat file HTML sederhana, dan menggunakan photoshop
+                    Motto        : "Tidak mengatakan tidak bisa, tanpa mencoba terlebih dahulu"
+                </pre>
+            </div>
+            <div class = "perkenalan-riwayat">
+                <p onclick="tampilkan()" style="cursor: pointer;">Riwayat Pendidikan (click here)</p>
+                <div id = "riw" class="sekolah">
+                <li>TK Xaverius 1</li>
+                <li>SD Xaverius 1</li>
+                <li>SMP Xaverius Maria</li>
+                <li>SMA Xaverius 1</li>
+                <li>STMIK MDP (Sedang menjalani)</li>
+                </div>
+            </div>
+        </div>
+        <div class = "loading">
+            <img onclick="show_hide()" src="loading.jpg" style="cursor: pointer;" >
+            <p class="loading-p">click to show</p>
+        </div>
+        <div id = "cal" class = "calculator_tambah">
+            Bilangan 1 = <input type="text" onkeyup="setBil1(this.value)"><br>
+            Bilangan 2 = <input type="text" onkeyup="setBil2(this.value)"><br>
+            <button onclick="tambah()">+</button>
+            Hasil = <input type="text" name="" id="hasil">
+        </div>
+    </main>
+</body>
+</html>
